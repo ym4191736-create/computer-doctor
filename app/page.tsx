@@ -83,7 +83,8 @@ export default function ComputerDoctor() {
   const [activeFault, setActiveFault] = useState(null);
   const [isScanning, setIsScanning] = useState(false);
 
-const handleSelect = (id: any) => {
+// @ts-ignore
+const handleSelect = (id) => {
         setIsScanning(true);
     setActiveFault(null);
     setTimeout(() => {
