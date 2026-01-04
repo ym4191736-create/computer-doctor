@@ -64,7 +64,7 @@ const faultsData = {
 };
 
 // --- 2. موديل اللابتوب الحقيقي ---
-function LaptopModel({ highlight }) {
+function LaptopModel({ highlight }: { highlight: any }) {
   const { scene } = useGLTF("/laptop.glb"); // ملفك اللي في الـ public
 
   return (
